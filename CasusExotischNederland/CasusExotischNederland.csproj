@@ -7,4 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="doc\flowcharts\" />
+      <Folder Include="doc\uc_diagrams\" />
+    </ItemGroup>
+
 </Project>
