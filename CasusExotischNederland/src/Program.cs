@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("TEMPORARY MESSAGE 2");
+            Console.WriteLine("TEMPORARY MESSAGE");
         }
     }
 }
