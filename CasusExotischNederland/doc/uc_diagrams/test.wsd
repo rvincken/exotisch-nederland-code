@@ -1,4 +1,4 @@
-@startuml
+@startuml Test
 left to right direction
 actor Gast as g
 rectangle "testdiagram" {
