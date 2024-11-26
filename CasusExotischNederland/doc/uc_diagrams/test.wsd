@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+actor Gast as g
+rectangle "testdiagram" {
+    usecase uc1 as "UC1 Test use-case"
+}
+g -- uc1
+@enduml
