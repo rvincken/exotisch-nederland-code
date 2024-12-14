@@ -187,7 +187,7 @@ internal class Program
             
             if (Path.GetExtension(pad).ToLower() != extensie)
             {
-                Console.WriteLine($"\nAlleen bestanden die eindigen met '{extensie}' zijn toegestaan.");
+                Console.WriteLine($"Alleen bestanden die eindigen met '{extensie}' zijn toegestaan.");
                 continue;
             }
 
