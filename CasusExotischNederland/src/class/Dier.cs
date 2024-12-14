@@ -1,10 +1,10 @@
 namespace CasusExotischNederland;
 
-public class Plant : Organisme
+public class Dier : Organisme
 {
     public string Categorie { get; private set; }
     
-    public Plant(
+    public Dier(
         int id,
         string datumGevonden,
         string beschrijving,
@@ -17,7 +17,7 @@ public class Plant : Organisme
     {
         Categorie = categorie;
     }
-
+    
     public override string ToString()
     {
         return base.ToString() + $"\nCategorie: {Categorie}";
